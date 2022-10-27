@@ -1,13 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-
 }
 
 .content{
     margin-top: 50px !important;
-    text-align: center;
-    justify-content: center;
 }
 
 .content-container{
@@ -19,6 +16,11 @@
 .center-heading{
     display: flex;
     padding-top: 2%;
+    text-align: center;
+    justify-content: center;
+}
+
+.center-img{
     text-align: center;
     justify-content: center;
 }
@@ -35,5 +37,5 @@
 .site-header{
     margin-left: 280px;
     height: 15%;
-    background-color: #3474ff;
+    background-color: #7EC8E3;
 }
