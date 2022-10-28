@@ -7,7 +7,7 @@ let requestOptions = {
     headers: myHeaders
 };
 
-fetch("https://www.alphavantage.co/query?function=REAL_GDP_PER_CAPITA&apikey=6W3E2LD7UPOGNMT0", requestOptions)
+fetch("link", requestOptions)
 .then(response => response.text())
 .then(result => console.log(result))
 .catch(error => console.log("error", error));
